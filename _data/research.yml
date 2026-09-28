@@ -280,7 +280,23 @@
       venue: "—"
 
 # ---------------------------------------------------------------------------
-- id: AI Methods & Applications
+- id: ai-applications
+  title_ko: "AI 응용 (Methods & Applications)"
+  title_en: "AI Methods & Applications"
+  intro_ko: >-
+    딥러닝 기법을 다양한 실세계 문제에 적용하는 연구를 폭넓게 진행합니다.
+    확률 분포 학습, 위성 데이터 기반 강수 추정, 추천 시스템 등 응용 영역과
+    방법론 양쪽을 모두 다룹니다.
+  intro_en: >-
+    We apply deep learning methods to diverse real-world problems, working on
+    both the methodological side and applied domains — including probability
+    distribution learning, satellite-based precipitation retrieval, and
+    recommender systems.
+  color_from: "#a855f7"
+  color_to: "#ec4899"
+  acronym: "APP"
+  projects:
+
     - title_ko: "Schrödinger Bridge 기반 통계적 매칭"
       title_en: "Statistical Matching via Schrödinger Bridge"
       desc_ko: >-
