@@ -300,6 +300,6 @@
         framework preserves latent dependence structures, recovers relationships
         between unobserved variable pairs, and enables probabilistic bidirectional
         imputation beyond conditional independence.
-      image: ""
+      image: "/assets/images/research/Statistical Matching.png"
       paper: "Statistical Matching via Schrödinger Bridge beyond Conditional Independence"
       venue: "NeurIPS, 2026"
