@@ -279,7 +279,7 @@
       paper: "Learning Directed Cycles for Illicit Transaction Detection in Crypto Networks (Hyungjun Lee, MS)"
       venue: "—"
 
-      # ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 - id: AI Methods & Applications
     - title_ko: "Schrödinger Bridge 기반 통계적 매칭"
       title_en: "Statistical Matching via Schrödinger Bridge"
