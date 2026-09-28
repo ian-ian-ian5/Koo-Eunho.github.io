@@ -3,6 +3,25 @@
 # authors: 문자열. 우리 랩 저자는 **이름** 으로 감싸면 강조됩니다.
 
 # ===========================================================================
+#  2026
+# ===========================================================================
+
+- title: "Statistical Matching via Schrödinger Bridge beyond Conditional Independence"
+  authors: "**Eun-Ho Koo**, Tongseok Lim, Jinwon Sohn"
+  venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026"
+  year: 2026
+  links:
+    scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
+    pdf: "https://arxiv.org/abs/2606.22770"
+  bibtex: |
+    @inproceedings{koo2026statistical,
+      title     = {Statistical Matching via Schr{\"o}dinger Bridge beyond Conditional Independence},
+      author    = {Koo, Eun-Ho and Lim, Tongseok and Sohn, Jinwon},
+      booktitle = {Advances in Neural Information Processing Systems},
+      year      = {2026}
+    }
+
+# ===========================================================================
 #  2025
 # ===========================================================================
 
