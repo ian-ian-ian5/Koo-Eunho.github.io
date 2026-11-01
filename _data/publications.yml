@@ -65,6 +65,7 @@
   venue: "Networks and Heterogeneous Media, 20(3), 987–1009"
   year: 2025
   links:
+    doi: "https://doi.org/10.3934/nhm.2025043"
     scholar: "https://www.aimspress.com/article/doi/10.3934/nhm.2025043"
   bibtex: |
     @article{park2025reliable,
@@ -86,6 +87,7 @@
   venue: "Expert Systems with Applications, 237, 121401"
   year: 2024
   links:
+    doi: "https://doi.org/10.1016/j.eswa.2023.121401"
     scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
   bibtex: |
     @article{koo2024centralized,
@@ -106,6 +108,7 @@
   venue: "Geophysical Research Letters, 50(7), e2022GL102283"
   year: 2023
   links:
+    doi: "https://doi.org/10.1029/2022GL102283"
     scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
   bibtex: |
     @article{bannai2023multitask,
@@ -123,6 +126,7 @@
   venue: "Computational Economics, 61(4), 1665–1679"
   year: 2023
   links:
+    doi: "https://doi.org/10.1007/s10614-022-10261-7"
     scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
   bibtex: |
     @article{koo2023neural,
@@ -144,6 +148,7 @@
   venue: "IEEE Access, 10, 34743–34754"
   year: 2022
   links:
+    doi: "https://doi.org/10.1109/ACCESS.2022.3163723"
     scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
   bibtex: |
     @article{koo2022hybrid,
@@ -164,6 +169,7 @@
   venue: "Applied Soft Computing, 110, 107738"
   year: 2021
   links:
+    doi: "https://doi.org/10.1016/j.asoc.2021.107738"
     scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
   bibtex: |
     @article{koo2021prediction,
@@ -201,6 +207,7 @@
   venue: "Chaos, Solitons & Fractals, 101, 1–7"
   year: 2017
   links:
+    doi: "https://doi.org/10.1016/j.chaos.2017.05.012"
     scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
   bibtex: |
     @article{koo2017explicit,
@@ -221,6 +228,7 @@
   venue: "Chaos, Solitons & Fractals, 91, 221–227"
   year: 2016
   links:
+    doi: "https://doi.org/10.1016/j.chaos.2016.06.005"
     scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
   bibtex: |
     @article{kim2016closed,

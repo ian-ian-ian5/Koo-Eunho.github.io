@@ -60,6 +60,7 @@ const I18N = {
     "pub.title": "논문",
     "pub.intro": "최근 발표한 연구 성과입니다. 전체 목록은 Google Scholar에서도 확인하실 수 있습니다.",
     "pub.bibtex": "BibTeX",
+    "pub.paper": "논문 보기",
     "pub.pdf": "PDF",
     "pub.code": "Code",
 
@@ -127,6 +128,7 @@ const I18N = {
     "pub.title": "Publications",
     "pub.intro": "Selected recent publications. The full list is also available on Google Scholar.",
     "pub.bibtex": "BibTeX",
+    "pub.paper": "Paper",
     "pub.pdf": "PDF",
     "pub.code": "Code",
 
