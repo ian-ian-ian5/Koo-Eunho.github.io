@@ -21,7 +21,7 @@ permalink: /publications/
             <p class="pub-authors">{{ p.authors }}</p>
             <p class="pub-venue">{{ p.venue }}</p>
             <div class="pub-links">
-              {% if p.links.arxiv %}<a class="pub-link" href="{{ p.links.arxiv | escape }}" target="_blank" rel="noopener noreferrer">arXiv</a>{% elsif p.links.doi %}<a class="pub-link" href="{{ p.links.doi | escape }}" target="_blank" rel="noopener noreferrer" data-i18n="pub.paper">논문 보기</a>{% endif %}
+              {% if p.links.arxiv %}<a class="pub-link" href="{{ p.links.arxiv | escape }}" target="_blank" rel="noopener noreferrer">arXiv</a>{% elsif p.links.doi %}<a class="pub-link" href="{{ p.links.doi | escape }}" target="_blank" rel="noopener noreferrer" data-i18n="pub.paper">Paper</a>{% endif %}
               {% if p.links.pdf %}<a class="pub-link" href="{{ p.links.pdf }}" target="_blank" rel="noopener" data-i18n="pub.pdf">PDF</a>{% endif %}
               {% if p.links.code %}<a class="pub-link" href="{{ p.links.code }}" target="_blank" rel="noopener" data-i18n="pub.code">Code</a>{% endif %}
               {% if p.links.project %}<a class="pub-link" href="{{ p.links.project }}" target="_blank" rel="noopener">Project</a>{% endif %}
