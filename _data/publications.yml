@@ -12,7 +12,7 @@
   year: 2026
   links:
     scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
-    pdf: "https://arxiv.org/abs/2606.22770"
+    arxiv: "https://arxiv.org/abs/2606.22770"
   bibtex: |
     @inproceedings{koo2026statistical,
       title     = {Statistical Matching via Schr{\"o}dinger Bridge beyond Conditional Independence},
@@ -30,6 +30,7 @@
   venue: "IEEE Transactions on Neural Networks and Learning Systems, 36(8), 14428–14439"
   year: 2025
   links:
+    arxiv: "https://arxiv.org/abs/2310.10114"
     scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
   bibtex: |
     @article{koo2025node,
@@ -47,6 +48,7 @@
   venue: "Neurocomputing, 658, 131705"
   year: 2025
   links:
+    arxiv: "https://arxiv.org/abs/2509.23568"
     scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
   bibtex: |
     @article{koo2025augmented,
@@ -178,6 +180,7 @@
   venue: "Neural Networks, 140, 113–120"
   year: 2021
   links:
+    arxiv: "https://arxiv.org/abs/2009.03534"
     scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
   bibtex: |
     @article{koo2021empirical,

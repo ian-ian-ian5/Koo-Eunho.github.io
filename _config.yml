@@ -4,7 +4,7 @@
 # =============================================================================
 
 # ----------------------------- Basic info ------------------------------------
-title: "Koo Lab @ JNU"
+title: "Koo Lab @ CNU"
 short_title: "Koo Lab"
 description: >-
   전남대학교 빅데이터융합학과 구은호 교수 연구실 — AI & Data Science (Deep Learning)
@@ -40,7 +40,7 @@ professor:
   title_en: "Professor"
   email: "kooeunho@jnu.ac.kr"
   office_ko: "전남대학교 광주캠퍼스 자연과학대학 1호관 213호"
-  office_en: "Bldg. 1, Rm. 213, College of Natural Sciences, JNU"
+  office_en: "Bldg. 1, Rm. 213, College of Natural Sciences, CNU"
   photo: "/assets/images/professor.jpg"
   cv: ""
   scholar: "https://scholar.google.com/citations?user=13BRvZAAAAAJ&hl=ko"
