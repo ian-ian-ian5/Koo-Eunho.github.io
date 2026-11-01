@@ -21,12 +21,13 @@ permalink: /publications/
             <p class="pub-authors">{{ p.authors }}</p>
             <p class="pub-venue">{{ p.venue }}</p>
             <div class="pub-links">
+              {% if p.links.arxiv %}<a class="pub-link" href="{{ p.links.arxiv | escape }}" target="_blank" rel="noopener noreferrer">arXiv</a>{% endif %}
               {% if p.links.pdf %}<a class="pub-link" href="{{ p.links.pdf }}" target="_blank" rel="noopener" data-i18n="pub.pdf">PDF</a>{% endif %}
               {% if p.links.code %}<a class="pub-link" href="{{ p.links.code }}" target="_blank" rel="noopener" data-i18n="pub.code">Code</a>{% endif %}
               {% if p.links.project %}<a class="pub-link" href="{{ p.links.project }}" target="_blank" rel="noopener">Project</a>{% endif %}
-              {% if p.bibtex %}<button class="pub-link bibtex-toggle" type="button" data-i18n="pub.bibtex">BibTeX</button>{% endif %}
+              {% if p.bibtex %}<button class="pub-link bibtex-toggle" type="button" aria-expanded="false" aria-controls="bibtex-{{ group.name }}-{{ forloop.index }}" data-i18n="pub.bibtex">BibTeX</button>{% endif %}
             </div>
-            {% if p.bibtex %}<pre class="bibtex">{{ p.bibtex | escape }}</pre>{% endif %}
+            {% if p.bibtex %}<pre class="bibtex" id="bibtex-{{ group.name }}-{{ forloop.index }}">{{ p.bibtex | escape }}</pre>{% endif %}
           </li>
         {% endfor %}
       </ul>
@@ -39,7 +40,10 @@ permalink: /publications/
   document.querySelectorAll(".bibtex-toggle").forEach((btn) => {
     btn.addEventListener("click", () => {
       const pre = btn.closest(".pub-item").querySelector(".bibtex");
-      if (pre) pre.classList.toggle("is-open");
+      if (pre) {
+        const isOpen = pre.classList.toggle("is-open");
+        btn.setAttribute("aria-expanded", String(isOpen));
+      }
     });
   });
 

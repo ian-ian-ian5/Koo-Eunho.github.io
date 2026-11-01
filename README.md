@@ -1,4 +1,4 @@
-# Gu Lab @ JNU — 랩실 웹사이트
+# Gu Lab @ CNU — 랩실 웹사이트
 
 전남대학교 빅데이터융합학과 **구은호 교수 연구실** 홈페이지 소스 코드입니다.
 
@@ -70,13 +70,13 @@ Jekyll(GitHub Pages)로 빌드되며, 한국어 / 영어 토글을 지원합니�
   venue: "CVPR 2026"
   year: 2026
   links:
-    pdf: "https://arxiv.org/abs/xxxx.xxxxx"
+    arxiv: "https://arxiv.org/abs/xxxx.xxxxx"
     code: "https://github.com/..."
   bibtex: |
     @inproceedings{...}
 ```
 
-연도 헤더는 자동으로 분기됩니다.
+연도 헤더는 자동으로 분기됩니다. `links.arxiv`에는 제목과 저자가 확인된 해당 논문의 arXiv 주소만 입력하세요. 주소를 확인하지 못한 논문은 해당 필드를 생략합니다. arXiv 버튼은 논문 페이지를 새 탭으로 열고, BibTeX 버튼은 인용 정보를 펼치거나 접습니다.
 
 ### 2-4. 연구 분야 카드 추가/수정
 
