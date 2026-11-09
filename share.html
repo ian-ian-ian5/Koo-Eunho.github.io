@@ -342,11 +342,8 @@
   const SUPABASE_ANON_KEY = "sb_publishable_FibDlTeGYci2_8ib9MsDhw_4mcMdjcJ";               // ← anon public key
   const BUCKET            = "uploads";                            // Storage 버킷 이름
   const MAX_MB            = 30;                                   // 파일 최대 용량(MB)
-  // 주차 분류 목록 — 원하는 대로 수정/추가 가능 (예: "특강", "프로젝트" 등)
-  const CATEGORIES = [
-    "1주차","2주차","3주차","4주차","5주차","6주차","7주차","8주차",
-    "9주차","10주차","11주차","12주차","13주차","14주차","15주차","16주차","기타"
-  ];
+  // 주차 분류 목록 — 1~50주차와 기타
+  const CATEGORIES = Array.from({ length: 50 }, (_, i) => `${i + 1}주차`).concat("기타");
   /* ============================================================ */
 
   const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
