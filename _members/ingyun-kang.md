@@ -2,7 +2,7 @@
 name_ko: "강인균"
 name_en: "Ingyun Kang"
 role: ms
-photo: "/assets/images/members/kang_ingyun.png"
+photo: "/assets/images/members/kang_ingyun.jpg"
 email: ""
 joined: 2024
 interests_ko: "쌍곡형 편미분방정식"
